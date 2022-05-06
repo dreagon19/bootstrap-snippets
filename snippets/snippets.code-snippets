@@ -1,0 +1,181 @@
+{
+    "Bootstrap 5 accordion": {
+        "prefix": "accordion",
+        "body": [
+            "",
+            "    <div class=\"accordion\" id=\"accordionExample\">",
+            "      <div class=\"accordion-item\">",
+            "        <h2 class=\"accordion-header\" id=\"headingOne\">",
+            "          <button",
+            "            class=\"accordion-button\"",
+            "            type=\"button\"",
+            "            data-bs-toggle=\"collapse\"",
+            "            data-bs-target=\"#collapseOne\"",
+            "            aria-expanded=\"true\"",
+            "            aria-controls=\"collapseOne\"",
+            "          >",
+            "            Accordion Item #1",
+            "          </button>",
+            "        </h2>",
+            "        <div",
+            "          id=\"collapseOne\"",
+            "          class=\"accordion-collapse collapse show\"",
+            "          aria-labelledby=\"headingOne\"",
+            "          data-bs-parent=\"#accordionExample\"",
+            "        >",
+            "          <div class=\"accordion-body\">",
+            "            <!-- todo add something -->${1:example}",
+            "          </div>",
+            "        </div>",
+            "      </div>",
+            "      <div class=\"accordion-item\">",
+            "        <h2 class=\"accordion-header\" id=\"headingTwo\">",
+            "          <button",
+            "            class=\"accordion-button collapsed\"",
+            "            type=\"button\"",
+            "            data-bs-toggle=\"collapse\"",
+            "            data-bs-target=\"#collapseTwo\"",
+            "            aria-expanded=\"false\"",
+            "            aria-controls=\"collapseTwo\"",
+            "          >",
+            "            Accordion Item #2",
+            "          </button>",
+            "        </h2>",
+            "        <div",
+            "          id=\"collapseTwo\"",
+            "          class=\"accordion-collapse collapse\"",
+            "          aria-labelledby=\"headingTwo\"",
+            "          data-bs-parent=\"#accordionExample\"",
+            "        >",
+            "          <div class=\"accordion-body\">",
+            "            <!-- todo add something -->${1:example}",
+            "          </div>",
+            "        </div>",
+            "      </div>",
+            "      <div class=\"accordion-item\">",
+            "        <h2 class=\"accordion-header\" id=\"headingThree\">",
+            "          <button",
+            "            class=\"accordion-button collapsed\"",
+            "            type=\"button\"",
+            "            data-bs-toggle=\"collapse\"",
+            "            data-bs-target=\"#collapseThree\"",
+            "            aria-expanded=\"false\"",
+            "            aria-controls=\"collapseThree\"",
+            "          >",
+            "            Accordion Item #3",
+            "          </button>",
+            "        </h2>",
+            "        <div",
+            "          id=\"collapseThree\"",
+            "          class=\"accordion-collapse collapse\"",
+            "          aria-labelledby=\"headingThree\"",
+            "          data-bs-parent=\"#accordionExample\"",
+            "        >",
+            "          <div class=\"accordion-body\">",
+            "            <!-- todo add something -->${1:example}",
+            "          </div>",
+            "        </div>",
+            "      </div>",
+            "    </div>",
+            "",
+            ""
+        ],
+        "description": "Bootstrap 5 accordion"
+    },
+    "A simple badge": {
+        "prefix": "badge",
+        "body": [
+            "<span class=\"badge bg-primary\"> Change the bg-primary to your liking${1:example} </span>"
+        ],
+        "description": "A simple badge"
+    },
+    "Breadcrumbs": {
+        "prefix": "breadcrumbs",
+        "body": [
+            " <nav aria-label=\"breadcrumb\">",
+            "      <ol class=\"breadcrumb\">",
+            "        <li class=\"breadcrumb-item\"> <a href=\"#\">Home${1:example}</a> </li>",
+            "        <li class=\"breadcrumb-item\"> <a href=\"#\">Library${1:example}</a> </li>",
+            "        <li class=\"breadcrumb-item active\" aria-current=\"page\">Data${1:example}</li>",
+            "      </ol>",
+            "    </nav>"
+        ],
+        "description": " A simple breadcrumbs. Add more li to see it expand and customise it to your liking"
+    },
+    "Button": {
+        "prefix": "btn",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-primary\">click me${1:example}</button>"
+        ],
+        "description": "Normal Bootstrap button, feel free to change the bg-* properties"
+    },
+    "Button Outline": {
+        "prefix": "btn-out btnout",
+        "body": [
+            " <button type=\"button\" class=\"btn btn-outline-primary\">Click me${1:example}</button>"
+        ],
+        "description": "Button Outline"
+    },
+    "Large Button": {
+        "prefix": "btn-lg",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-secondary btn-lg\">Click me${1:example}</button>"
+        ],
+        "description": "Large Button"
+    },
+    "Small Button": {
+        "prefix": "btn-sm",
+        "body": [
+            " <button type=\"button\" class=\"btn btn-secondary btn-sm\">Click me${1:example}</button>"
+        ],
+        "description": "Small Button"
+    },
+    "Block Buttons": {
+        "prefix": "btn-block",
+        "body": [
+            " <div class=\"d-grid gap-2\">",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button 1${1:example}</button>",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button 2${1:example}</button>",
+            " </div>"
+        ],
+        "description": "2 Block Buttons increase gap to increase a gap between buttons"
+    },
+    "Grid Buttons 2": {
+        "prefix": "btn-2",
+        "body": [
+            "<div class=\"d-grid gap-2 d-md-block\">",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button${1:example}</button>",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button${1:example}</button>",
+            "    </div>"
+        ],
+        "description": "2 Grid Buttons they become vertically stacked when they hit medium or md breakpoints"
+    },
+    "Grid Buttons 3": {
+        "prefix": "btn-3",
+        "body": [
+            "<div class=\"d-grid gap-2 d-md-block\">",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button${1:example}</button>",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button${1:example}</button>",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button${1:example}</button>",
+            "</div>",
+            ""
+        ],
+        "description": "3 Grid Buttons they become vertically stacked when they hit medium or md breakpoints"
+    },
+    "Grid Buttons 8": {
+        "prefix": "btn-8 btnhibtn",
+        "body": [
+            "<div class=\"d-grid gap-2 d-md-block\">",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button${1:example}</button>",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button</button>",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button</button>",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button</button>",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button</button>",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button</button>",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button</button>",
+            "      <button class=\"btn btn-primary\" type=\"button\">Button</button>",
+            " </div>"
+        ],
+        "description": "8 Grid Buttons they become vertically stacked when they hit medium or md breakpoints. And bhai ye jada ho gaya"
+    }
+}
