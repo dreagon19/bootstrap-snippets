@@ -9,8 +9,8 @@ Hope this extension make your life a little easier.
 
 
 ## The Snippets included are:
-- [`accordion`](https://getbootstrap.com/docs/5.1/components/accordion/)
-- [`badge`](https://getbootstrap.com/docs/5.1/components/badge/)
+- [accordion](https://getbootstrap.com/docs/5.1/components/accordion/)
+- [badge](https://getbootstrap.com/docs/5.1/components/badge/)
 - [breadcrumbs](https://getbootstrap.com/docs/5.1/components/breadcrumb/)
 - [btn](https://getbootstrap.com/docs/5.1/components/buttons/)
 - [btn-out](https://getbootstrap.com/docs/5.1/components/buttons/)
