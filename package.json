@@ -3,7 +3,7 @@
   "displayName": "BS-5",
   "publisher": "JiteshKumar",
   "description": "Provides a code snippets for bootstap 5 and make alteast my life easier",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.67.0"
   },
