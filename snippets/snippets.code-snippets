@@ -1,6 +1,6 @@
 {
     "Bootstrap 5 accordion": {
-        "prefix": "accordion",
+        "prefix": "bs-accordion",
         "body": [
             "",
             "    <div class=\"accordion\" id=\"accordionExample\">",
@@ -83,14 +83,14 @@
         "description": "Bootstrap 5 accordion"
     },
     "A simple badge": {
-        "prefix": "badge",
+        "prefix": "bs-badge",
         "body": [
             "<span class=\"badge bg-primary\"> Change the bg-primary to your liking${1:example} </span>"
         ],
         "description": "A simple badge"
     },
     "Breadcrumbs": {
-        "prefix": "breadcrumbs",
+        "prefix": "bs-breadcrumbs",
         "body": [
             " <nav aria-label=\"breadcrumb\">",
             "      <ol class=\"breadcrumb\">",
@@ -103,35 +103,35 @@
         "description": " A simple breadcrumbs. Add more li to see it expand and customise it to your liking"
     },
     "Button": {
-        "prefix": "btn",
+        "prefix": "bs-btn",
         "body": [
             "<button type=\"button\" class=\"btn btn-primary\">click me${1:example}</button>"
         ],
         "description": "Normal Bootstrap button, feel free to change the bg-* properties"
     },
     "Button Outline": {
-        "prefix": "btn-out btnout",
+        "prefix": "bs-btn-out btnout",
         "body": [
             " <button type=\"button\" class=\"btn btn-outline-primary\">Click me${1:example}</button>"
         ],
         "description": "Button Outline"
     },
     "Large Button": {
-        "prefix": "btn-lg",
+        "prefix": "bs-btn-lg",
         "body": [
             "<button type=\"button\" class=\"btn btn-secondary btn-lg\">Click me${1:example}</button>"
         ],
         "description": "Large Button"
     },
     "Small Button": {
-        "prefix": "btn-sm",
+        "prefix": "bs-btn-sm",
         "body": [
             " <button type=\"button\" class=\"btn btn-secondary btn-sm\">Click me${1:example}</button>"
         ],
         "description": "Small Button"
     },
     "Block Buttons": {
-        "prefix": "btn-block",
+        "prefix": "bs-btn-block",
         "body": [
             " <div class=\"d-grid gap-2\">",
             "      <button class=\"btn btn-primary\" type=\"button\">Button 1${1:example}</button>",
@@ -141,7 +141,7 @@
         "description": "2 Block Buttons increase gap to increase a gap between buttons"
     },
     "Grid Buttons 2": {
-        "prefix": "btn-2",
+        "prefix": "bs-btn-2",
         "body": [
             "<div class=\"d-grid gap-2 d-md-block\">",
             "      <button class=\"btn btn-primary\" type=\"button\">Button${1:example}</button>",
@@ -151,7 +151,7 @@
         "description": "2 Grid Buttons they become vertically stacked when they hit medium or md breakpoints"
     },
     "Grid Buttons 3": {
-        "prefix": "btn-3",
+        "prefix": "bs-btn-3",
         "body": [
             "<div class=\"d-grid gap-2 d-md-block\">",
             "      <button class=\"btn btn-primary\" type=\"button\">Button${1:example}</button>",
@@ -163,7 +163,7 @@
         "description": "3 Grid Buttons they become vertically stacked when they hit medium or md breakpoints"
     },
     "Grid Buttons 8": {
-        "prefix": "btn-8 btnhibtn",
+        "prefix": "bs-btn-8 btnhibtn",
         "body": [
             "<div class=\"d-grid gap-2 d-md-block\">",
             "      <button class=\"btn btn-primary\" type=\"button\">Button${1:example}</button>",
@@ -179,7 +179,7 @@
         "description": "8 Grid Buttons they become vertically stacked when they hit medium or md breakpoints. And bhai ye jada ho gaya"
     },
     "Basic Checkbox": {
-        "prefix": "checkbox",
+        "prefix": "bs-checkbox",
         "body": [
             "<div class=\"btn-group\" role=\"group\" aria-label=\"Basic checkbox toggle button group\">",
             "  <input type=\"checkbox\" class=\"btn-check\" id=\"btncheck1\" autocomplete=\"off\">",
@@ -195,7 +195,7 @@
         "description": "Basic Checkbox"
     },
     "Card": {
-        "prefix": "card",
+        "prefix": "bs-card",
         "body": [
             "<div class=\"card\" style=\"width: 18rem\">",
             "      <img src=\"${1:example}\" class=\"card-img-top\" alt=\"bg-missing\" />",
@@ -212,7 +212,7 @@
         "description": "A simple card"
     },
     "Carousel-Indicators": {
-        "prefix": "carousel-i",
+        "prefix": "bs-carousel-i",
         "body": [
             "<!-- Remove this comment and replace \"...\" with respective urls of images -->",
             "  <div id=\"carouselExampleIndicators\"class=\"carousel slide\" data-bs-ride=\"carousel\">",
@@ -248,5 +248,181 @@
             "  </div>"
         ],
         "description": "Carousel-Indicators"
+    },
+    "Collapse": {
+        "prefix": "bs-collapse",
+        "body": [
+            "<div>",
+            "        <a href=\"#collapseExample\" class=\"btn btn-primary\" data-bs-toggle=\"collapse\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapseExample\" > Click here $1 </a>",
+            "        <div class=\"collapse\" id=\"collapseExample\">",
+            "            <div class=\"card card-body\">",
+            "               ${1:Write here}",
+            "            </div>",
+            "        </div>",
+            "",
+            "    </div>"
+        ],
+        "description": "Collapse"
+    },
+    "Simple Dropdown": {
+        "prefix": "bs-dropdown",
+        "body": [
+            "<div class=\"dropdown\" >",
+            "        <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton1\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" >",
+            "        Click me",
+            "        </button>",
+            "",
+            "        <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton1\">",
+            "            <li><a href=\"#\" class=\"dropdown-item\">Link 1</a></li>",
+            "            <li><a href=\"#\" class=\"dropdown-item\">Link 2</a></li>",
+            "            <li><a href=\"#\" class=\"dropdown-item\">Link 3</a></li>",
+            "        </ul>",
+            "    </div>"
+        ],
+        "description": "Simple Dropdown"
+    },
+    "Dark Dropdown": {
+        "prefix": "bs-darkdropdown",
+        "body": [
+            "<div class=\"dropdown\" >",
+            "        <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton1\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" >",
+            "        Click me",
+            "        </button>",
+            "",
+            "        <ul class=\"dropdown-menu dropdown-menu-dark\" aria-labelledby=\"dropdownMenuButton1\">",
+            "            <li><a href=\"#\" class=\"dropdown-item\">${1:Link 1}</a></li>",
+            "            <li><a href=\"#\" class=\"dropdown-item\">${2:Link 2}</a></li>",
+            "            <li><a href=\"#\" class=\"dropdown-item\">${3:Link 3}</a></li>",
+            "            <li>",
+            "                <hr class=\"dropdown-divider\">",
+            "            </li>",
+            "            <li><a href=\"#\" class=\"dropdown-item\">Link 4${4:Link 4}</a></li>",
+            "        </ul>",
+            "    </div>"
+        ],
+        "description": "Dark Dropdown"
+    },"Drop-Right ": {
+        "prefix": "bs-dropright",
+        "body": [
+            "<div class=\"dropend\" >",
+            "        <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton1\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" >",
+            "        Click me",
+            "        </button>",
+            "",
+            "        <ul class=\"dropdown-menu dropdown-togg\" aria-labelledby=\"dropdownMenuButton1\">",
+            "            <li><a href=\"#\" class=\"dropdown-item\">${1:Link 1}</a></li>",
+            "            <li><a href=\"#\" class=\"dropdown-item\">${2:Link 2}</a></li>",
+            "            <li><a href=\"#\" class=\"dropdown-item\">${3:Link 3}</a></li>",
+            "            <li>",
+            "                <hr class=\"dropdown-divider\">",
+            "            </li>",
+            "            <li><a href=\"#\" class=\"dropdown-item\">Link 4</a></li>",
+            "        </ul>",
+            "    </div>"
+        ],
+        "description": "Drop-Right "
+    },
+    "Drop-Left": {
+        "prefix": "bs-dropleft",
+        "body": [
+            "<div class=\"dropstart\" >",
+            "        <!-- TODO: Adjust the left margin or padding or the droplist will appear on the right instead of left -->",
+            "        <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton1\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" >",
+            "        Click me",
+            "        </button>",
+            "",
+            "        <ul class=\"dropdown-menu dropdown-toggle\" aria-labelledby=\"dropdownMenuButton1\">",
+            "            <li><a href=\"#\" class=\"dropdown-item\">Link 1</a></li>",
+            "            <li><a href=\"#\" class=\"dropdown-item\">Link 2</a></li>",
+            "            <li><a href=\"#\" class=\"dropdown-item\">Link 3</a></li>",
+            "            <li>",
+            "                <hr class=\"dropdown-divider\">",
+            "            </li>",
+            "            <li><a href=\"#\" class=\"dropdown-item\">Link 4</a></li>",
+            "        </ul>",
+            "    </div>"
+        ],
+        "description": "Drop-Left"
+    },"All types of dropdown provided bt Bootstrap 5": {
+        "prefix": "bs-alldropdown",
+        "body": [
+            "<div class=\"btn-group\">",
+            "  <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+            "    Dropdown",
+            "  </button>",
+            "  <ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "  </ul>",
+            "</div>",
+            "",
+            "<div class=\"btn-group\">",
+            "  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+            "    Right-aligned menu",
+            "  </button>",
+            "  <ul class=\"dropdown-menu dropdown-menu-end\">",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "  </ul>",
+            "</div>",
+            "",
+            "<div class=\"btn-group\">",
+            "  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle\" data-bs-toggle=\"dropdown\" data-bs-display=\"static\" aria-expanded=\"false\">",
+            "    Left-aligned, right-aligned lg",
+            "  </button>",
+            "  <ul class=\"dropdown-menu dropdown-menu-lg-end\">",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "  </ul>",
+            "</div>",
+            "",
+            "<div class=\"btn-group\">",
+            "  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle\" data-bs-toggle=\"dropdown\" data-bs-display=\"static\" aria-expanded=\"false\">",
+            "    Right-aligned, left-aligned lg",
+            "  </button>",
+            "  <ul class=\"dropdown-menu dropdown-menu-end dropdown-menu-lg-start\">",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "  </ul>",
+            "</div>",
+            "",
+            "<div class=\"btn-group dropstart\">",
+            "  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+            "    Dropstart",
+            "  </button>",
+            "  <ul class=\"dropdown-menu\">",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "  </ul>",
+            "</div>",
+            "",
+            "<div class=\"btn-group dropend\">",
+            "  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+            "    Dropend",
+            "  </button>",
+            "  <ul class=\"dropdown-menu\">",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "  </ul>",
+            "</div>",
+            "",
+            "<div class=\"btn-group dropup\">",
+            "  <button type=\"button\" class=\"btn btn-secondary dropdown-toggle\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">",
+            "    Dropup",
+            "  </button>",
+            "  <ul class=\"dropdown-menu\">",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "    <li><a class=\"dropdown-item\" href=\"#\">Menu item</a></li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "All types of dropdown provided bt Bootstrap 5"
     }
 }
