@@ -1,4 +1,4 @@
-# bootstrap-snippets README
+# README
 This extension was created only for a single purpose that is to make my life little easier and not having to type so much HTML.
 
 Lets face it, You are tired of typing same thing over and over again.
